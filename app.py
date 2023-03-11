@@ -1,6 +1,3 @@
-!pip install streamlit
-!pip install protobuf==3.20.0
-%%writefile app.py
 import streamlit as st
 
 st.title('GIẢI PHƯƠNG TRÌNH BẬC NHẤT')
@@ -16,4 +13,3 @@ else:
 
 if st.button("Giải"):
   st.write(kq)
-!streamlit run app.py & npx localtunnel --port 8501
